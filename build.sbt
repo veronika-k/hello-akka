@@ -1,10 +1,8 @@
-name := "hello-akka-http"
+name := "hello-akka"
 
 version := "1.0"
 
 scalaVersion := "2.12.1"
-
-organization := "site.steveking"
 
 libraryDependencies ++= {
   val akkaVersion = "2.5.3"

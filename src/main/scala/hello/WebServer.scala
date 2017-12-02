@@ -26,7 +26,7 @@ object WebServer extends App {
   val port = config.getInt("http.port")
   val message = config.getString("http.message")
 
-  val route = path("") {
+  val route = path("akka") {
     get {
       logger.info("Received request")
       complete(HttpEntity(ContentTypes.`text/html(UTF-8)`, message))

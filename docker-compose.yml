@@ -1,0 +1,6 @@
+version: '1'
+services:
+  hello-akka:
+    image: "ronnylune/hello-akka"
+  nginx:
+    image: "nginx"
